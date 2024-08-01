@@ -1,0 +1,103 @@
+{
+  "spacing-none": {
+    "value": "{Spacing.0 (0px)}",
+    "type": "dimension",
+    "parent": "spacing/Mode 1",
+    "description": ""
+  },
+  "spacing-xxs": {
+    "value": "{Spacing.0․5 (2px)}",
+    "type": "dimension",
+    "parent": "spacing/Mode 1",
+    "description": ""
+  },
+  "spacing-sm": {
+    "value": "{Spacing.1 (4px)}",
+    "type": "dimension",
+    "parent": "spacing/Mode 1",
+    "description": ""
+  },
+  "spacing-md": {
+    "value": "{Spacing.1․5 (6px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.2 (8px)}"
+  },
+  "spacing-lg": {
+    "value": "{Spacing.2 (8px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.3 (12px)}"
+  },
+  "spacing-xl": {
+    "value": "{Spacing.3 (12px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.4 (16px)}"
+  },
+  "spacing-2xl": {
+    "value": "{Spacing.4 (16px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.5 (20px)}"
+  },
+  "spacing-3xl": {
+    "value": "{Spacing.5 (20px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.6 (24px)}"
+  },
+  "spacing-4xl": {
+    "value": "{Spacing.6 (24px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.7 (32px)}"
+  },
+  "spacing-5xl": {
+    "value": "{Spacing.7 (32px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.8 (40px)}"
+  },
+  "spacing-6xl": {
+    "value": "{Spacing.8 (40px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.9 (48px)}"
+  },
+  "spacing-7xl": {
+    "value": "{Spacing.9 (48px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.10 (56px)}"
+  },
+  "spacing-8xl": {
+    "value": "{Spacing.10 (56px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.11 (64px)}"
+  },
+  "spacing-9xl": {
+    "value": "{Spacing.11 (64px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": "",
+    "oldValue": "{Spacing.12 (72px)}"
+  },
+  "spacing-10xl": {
+    "value": "{Spacing.12 (72px)}",
+    "type": "dimension",
+    "parent": "spacing/spacing",
+    "description": ""
+  }
+}

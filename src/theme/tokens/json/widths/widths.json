@@ -1,0 +1,68 @@
+{
+  "width-xxs": {
+    "value": "{Widths.80 (320px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-xs": {
+    "value": "{Widths.96 (384px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-sm": {
+    "value": "{Widths.120 (480px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-md": {
+    "value": "{Widths.140 (560px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-lg": {
+    "value": "{Widths.180 (720px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-xl": {
+    "value": "{Widths.192 (768px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-2xl": {
+    "value": "{Widths.256 (1024px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-3xl": {
+    "value": "{Widths.320 (1280px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-4xl": {
+    "value": "{Widths.360 (1440px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-5xl": {
+    "value": "{Widths.400 (1600px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  },
+  "width-6xl": {
+    "value": "{Widths.480 (1920px)}",
+    "type": "dimension",
+    "parent": "widths/Mode 1",
+    "description": ""
+  }
+}

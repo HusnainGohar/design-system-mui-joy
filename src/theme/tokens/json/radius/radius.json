@@ -1,0 +1,77 @@
+{
+  "radius-xs": {
+    "value": "{Radius.1 (4px)}",
+    "type": "dimension",
+    "parent": "radius/Mode 1",
+    "description": ""
+  },
+  "radius-sm": {
+    "value": "{Radius.2 (8px)}",
+    "type": "dimension",
+    "parent": "radius/Mode 1",
+    "description": ""
+  },
+  "radius-md": {
+    "value": "{Radius.3 (12px)}",
+    "type": "dimension",
+    "parent": "radius/Mode 1",
+    "description": ""
+  },
+  "radius-lg": {
+    "value": "{Radius.4 (16px)}",
+    "type": "dimension",
+    "parent": "radius/Mode 1",
+    "description": ""
+  },
+  "radius-xl": {
+    "value": "{Radius.6 (24px)}",
+    "type": "dimension",
+    "parent": "radius/Mode 1",
+    "description": ""
+  },
+  "radius-10xl": {
+    "value": "{Radius.100 (9999px)}",
+    "type": "dimension",
+    "parent": "radius/radius",
+    "description": ""
+  },
+  "Components": {
+    "Input-radius": {
+      "value": "{radius-sm}",
+      "type": "dimension",
+      "parent": "radius/radius",
+      "description": ""
+    },
+    "tooltip-radius": {
+      "value": "{radius-sm}",
+      "type": "dimension",
+      "parent": "radius/radius",
+      "description": "",
+      "oldValue": "{radius-sm}"
+    },
+    "button-radius": {
+      "value": "{radius-sm}",
+      "type": "dimension",
+      "parent": "radius/radius",
+      "description": ""
+    },
+    "badge-radius-xs": {
+      "value": "{radius-xs}",
+      "type": "dimension",
+      "parent": "radius/radius",
+      "description": ""
+    },
+    "badge-radius-full": {
+      "value": "{radius-10xl}",
+      "type": "dimension",
+      "parent": "radius/radius",
+      "description": ""
+    },
+    "groupButton-radius": {
+      "value": "{radius-sm}",
+      "type": "dimension",
+      "parent": "radius/radius",
+      "description": ""
+    }
+  }
+}
