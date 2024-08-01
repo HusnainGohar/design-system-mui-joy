@@ -89,7 +89,7 @@ export default function JoySignInSideTemplate() {
               <IconButton variant="soft" color="primary" size="sm">
                 <BadgeRoundedIcon />
               </IconButton>
-              <Typography level="title-lg">Company logo</Typography>
+              <Typography level="display-xs.medium">Company logo</Typography>
             </Box>
             <ColorSchemeToggle />
           </Box>
@@ -160,12 +160,16 @@ export default function JoySignInSideTemplate() {
                 }}
               >
                 <FormControl required>
-                  <FormLabel>Email</FormLabel>
+                  <Typography component={FormLabel} level="text-md.regular">
+                    Email
+                  </Typography>
                   <Input type="email" name="email" variant="primary" />
                 </FormControl>
                 <FormControl required>
-                  <FormLabel>Password</FormLabel>
-                  <Input type="password" name="password" variant="outlined" />
+                  <Typography component={FormLabel} level="text-md.regular">
+                    Password
+                  </Typography>
+                  <Input type="password" name="password" variant="primary" />
                 </FormControl>
                 <Stack gap={4} sx={{ mt: 2 }}>
                   <Box
@@ -176,7 +180,7 @@ export default function JoySignInSideTemplate() {
                     }}
                   >
                     <Checkbox size="sm" label="Remember me" name="persistent" />
-                    <Link level="title-sm" href="#replace-with-a-link">
+                    <Link level="text-sm.semibold" href="#replace-with-a-link">
                       Forgot your password?
                     </Link>
                   </Box>
@@ -188,7 +192,7 @@ export default function JoySignInSideTemplate() {
             </Stack>
           </Box>
           <Box component="footer" sx={{ py: 3 }}>
-            <Typography level="body-xs" textAlign="center">
+            <Typography level="text-xs.bold" textAlign="center">
               © Your company {new Date().getFullYear()}
             </Typography>
           </Box>

@@ -3,6 +3,95 @@ import { DefaultColorScheme } from "@mui/joy/styles/types";
 
 declare module "@mui/joy/styles" {
   interface Palette {
+    base: {
+      white?: string;
+      black?: string;
+      transparent?: string;
+    };
+    gray: {
+      25?: string;
+      50?: string;
+      100?: string;
+      200?: string;
+      300?: string;
+      400?: string;
+      500?: string;
+      600?: string;
+      700?: string;
+      800?: string;
+      900?: string;
+      950?: string;
+    };
+    brand: {
+      25?: string;
+      50?: string;
+      100?: string;
+      200?: string;
+      300?: string;
+      400?: string;
+      500?: string;
+      600?: string;
+      700?: string;
+      800?: string;
+      900?: string;
+      950?: string;
+    };
+    red: {
+      25?: string;
+      50?: string;
+      100?: string;
+      200?: string;
+      300?: string;
+      400?: string;
+      500?: string;
+      600?: string;
+      700?: string;
+      800?: string;
+      900?: string;
+      950?: string;
+    };
+    yellow: {
+      25?: string;
+      50?: string;
+      100?: string;
+      200?: string;
+      300?: string;
+      400?: string;
+      500?: string;
+      600?: string;
+      700?: string;
+      800?: string;
+      900?: string;
+      950?: string;
+    };
+    green: {
+      25?: string;
+      50?: string;
+      100?: string;
+      200?: string;
+      300?: string;
+      400?: string;
+      500?: string;
+      600?: string;
+      700?: string;
+      800?: string;
+      900?: string;
+      950?: string;
+    };
+    blue: {
+      25?: string;
+      50?: string;
+      100?: string;
+      200?: string;
+      300?: string;
+      400?: string;
+      500?: string;
+      600?: string;
+      700?: string;
+      800?: string;
+      900?: string;
+      950?: string;
+    };
     text: {
       "text-primary"?: string;
       "text-secondary"?: string;
@@ -20,6 +109,67 @@ declare module "@mui/joy/styles" {
       "text-secondary_on-brand"?: string;
       "text-tertiary_on-brand"?: string;
       "text-info-primary"?: string;
+    };
+    border: {
+      "border-primary"?: string;
+      "border-secondary"?: string;
+      "border-tertiary"?: string;
+      "border-brand"?: string;
+      "border-brand-solid"?: string;
+      "border-error"?: string;
+      "border-error-solid"?: string;
+      "border-warning"?: string;
+      "border-warning-solid"?: string;
+      "border-success"?: string;
+      "border-success-solid"?: string;
+      "border-info"?: string;
+      "border-info-solid"?: string;
+      "border-brand-solid_hover"?: string;
+    };
+    foreground: {
+      "fg-primary"?: string;
+      "fg-secondary"?: string;
+      "fg-tertiary"?: string;
+      "fg-white"?: string;
+      "fg-disabled"?: string;
+      "fg-brand-primary"?: string;
+      "fg-brand-secondary"?: string;
+      "fg-brand-tertiary"?: string;
+      "fg-error-primary"?: string;
+      "fg-error-secondary"?: string;
+      "fg-warning-primary"?: string;
+      "fg-warning-secondary"?: string;
+      "fg-success-primary"?: string;
+      "fg-success-secondary"?: string;
+      "fg-info-primary"?: string;
+      "fg-info-secondary"?: string;
+      "fg-brand-primary_hover"?: string;
+    };
+    background: {
+      "bg-primary"?: string;
+      "bg-secondary"?: string;
+      "bg-tertiary"?: string;
+      "bg-primary-solid"?: string;
+      "bg-disabled"?: string;
+      "bg-brand-primary"?: string;
+      "bg-brand-secondary"?: string;
+      "bg-brand-tertiary"?: string;
+      "bg-error-primary"?: string;
+      "bg-error-secondary"?: string;
+      "bg-warning-primary"?: string;
+      "bg-warning-secondary"?: string;
+      "bg-success-primary"?: string;
+      "bg-success-secondary"?: string;
+      "bg-info-primary"?: string;
+      "bg-info-secondary"?: string;
+      "bg-brand-solid"?: string;
+      "bg-brand-solid_hover"?: string;
+      "bg-error-solid"?: string;
+      "bg-warning-solid"?: string;
+      "bg-success-solid"?: string;
+      "bg-info-solid"?: string;
+      "bg-primary_hover"?: string;
+      "bg-secondary_hover"?: string;
     };
   }
 }

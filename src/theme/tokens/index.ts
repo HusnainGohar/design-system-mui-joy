@@ -7,6 +7,7 @@ import { fontFamily } from "./fontFamily";
 import { typography } from "./typography";
 import { radius } from "./radius";
 import { Button } from "../components/Button";
+import { Input } from "../components/Input";
 
 export const theme = extendTheme({
   //tokens
@@ -20,5 +21,6 @@ export const theme = extendTheme({
   //components
   components: {
     JoyButton: Button,
+    JoyInput: Input,
   },
 });

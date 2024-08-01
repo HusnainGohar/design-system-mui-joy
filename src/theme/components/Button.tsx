@@ -1,4 +1,4 @@
-import { ButtonProps, Theme } from "@mui/joy";
+import { Components, Theme } from "@mui/joy";
 
 declare module "@mui/joy/Button" {
   interface ButtonPropsVariantOverrides {
@@ -7,14 +7,7 @@ declare module "@mui/joy/Button" {
   }
 }
 
-type ButtonThemeProps =
-  | {
-      defaultProps?: Partial<ButtonProps>;
-      styleOverrides?: {
-        root?: any;
-      };
-    }
-  | undefined;
+type ButtonThemeProps = Components<Theme>["JoyButton"] | undefined;
 
 export const Button: ButtonThemeProps = {
   defaultProps: {},
@@ -26,9 +19,12 @@ export const Button: ButtonThemeProps = {
         fontWeight: theme.vars.fontWeight["inter-3"],
         lineHeight: theme.vars.lineHeight[10],
         color: theme.vars.palette.text["text-white"],
-        //@ts-ignore
         backgroundColor: theme.vars.palette.background?.["bg-brand-solid"],
         borderRadius: theme.vars.radius["button-radius"],
+        "&:hover": {
+          backgroundColor:
+            theme.vars.palette.background?.["bg-brand-solid_hover"],
+        },
       }),
       ...(ownerState.variant === "secondary" && {
         fontFamily: theme.vars.fontFamily.inter,
@@ -36,9 +32,12 @@ export const Button: ButtonThemeProps = {
         fontWeight: theme.vars.fontWeight["inter-3"],
         lineHeight: theme.vars.lineHeight[10],
         color: theme.vars.palette.text["text-brand-primary"],
-        //@ts-ignore
-        backgroundColor: theme.vars.palette.background?.["bg-brand-secondary"],
+        backgroundColor: theme.vars.palette.background?.["bg-brand-primary"],
         borderRadius: theme.vars.radius["button-radius"],
+        "&:hover": {
+          backgroundColor:
+            theme.vars.palette.background?.["bg-brand-secondary"],
+        },
       }),
     }),
   },
