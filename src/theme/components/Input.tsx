@@ -23,7 +23,6 @@ export const Input: InputThemeProps = {
         borderRadius: theme.vars.radius["input-radius"],
         "&.Mui-focused": {
           backgroundColor: theme.vars.palette.background?.["bg-brand-primary"],
-          border: "none",
         },
       }),
       ...(ownerState.variant === "secondary" && {
@@ -36,7 +35,6 @@ export const Input: InputThemeProps = {
         borderRadius: theme.vars.radius["input-radius"],
         "&.Mui-focused": {
           backgroundColor: theme.vars.palette.background?.["bg-success-solid"],
-          border: "none",
         },
       }),
     }),
